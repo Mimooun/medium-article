@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.medium .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.medium .container-image img {
+  width: 100%;
+  height: 80vh;
+}
+.medium .overlay p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+.medium .wrapper {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.medium .wrapper .first {
+
+  font-family: 'Montserrat', sans-serif;
+  color: #bc6c25;
+  font-weight: 800;
+  font-size: 30px;
+}
+.medium .wrapper .seconde {
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #d38833;
+  font-weight: 400;
+  font-size: 20px;
+}
+.medium .hover {
+  margin-top: 30px;
+  color: #d4a373;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  font-weight: 400;
+}
+.medium .hover .text {
+  background-color: #eae2b7;
+}
+.medium .hover .text:hover {
+  cursor: pointer;
+  background-color: #d38833;
+  color: white;
+}
